@@ -33,7 +33,7 @@ I am Xamorite, a self-motivated Mobile & Web Developer. I'm a lover of Google an
 
 ![c#](https://img.shields.io/badge/-cs-239120?style=for-the-badge&logo=c-sharp)
 ![java](https://img.shields.io/badge/-java-007396?style=for-the-badge&logo=java)
-![python](https://img.shields.io/badge/-python-black?style=for-the-badge&logo=python)
+
 
 <!-- html, css, javascript, angular, typescript, nodejs bootstrap,php -->
 
