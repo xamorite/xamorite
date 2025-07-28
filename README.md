@@ -1,69 +1,72 @@
-# React + TypeScript + Vite
+# `Hello World !` <img src="https://raw.githubusercontent.com/zamorite/zamorite/master/wave.gif" width="30px">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+</br>
 
-Currently, two official plugins are available:
+## `> whoami`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I am Xamorite, a self-motivated Mobile & Web Developer. I'm a lover of Google and it's technologies such as Flutter, React and Node. I also create beautiful graphic designs for both print and media.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+</br>
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## `> ls accounts --social`
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+[![Website Badge](https://img.shields.io/badge/-xamorite.com-black?style=for-the-badge&logo=Google-Chrome&logoColor=white&link=https://xamorite.com)](https://xamorite.netlify.app)
+[![Stackoverflow Badge](https://img.shields.io/badge/-xamorite-575757?style=for-the-badge&logo=StackOverflow&logoColor=white&link=https://stackoverflow.com/users/story/9635809/)](https://stackoverflow.com/users/story/9635809/)
+[![Twitter Badge](https://img.shields.io/badge/-%5Fxamorite-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white&link=https://twitter.com/Xamorite)](https://twitter.com/Xamorite)
+[![Linkedin Badge](https://img.shields.io/badge/-xamorite-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/emmanuel-ogunneye-87621a252/)](https://www.linkedin.com/in/emmanuel-ogunneye-87621a252/)
+[![Gmail Badge](https://img.shields.io/badge/-xamorite@gmail.com-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:eogunneye@gmail.com)](mailto:eogunneye@gmail.com)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+</br>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## `> ls tech-stack`
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<!-- flutter, dart -->
+
+![flutter](https://img.shields.io/badge/-flutter-02569B?style=for-the-badge&logo=flutter)
+![dart](https://img.shields.io/badge/-dart-0175C2?style=for-the-badge&logo=dart)
+
+<!-- c++, c#, java, python, -->
+
+![c#](https://img.shields.io/badge/-cs-239120?style=for-the-badge&logo=c-sharp)
+![java](https://img.shields.io/badge/-java-007396?style=for-the-badge&logo=java)
+
+
+<!-- html, css, javascript, angular, typescript, nodejs bootstrap,php -->
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
+![angular](https://img.shields.io/badge/-angular-DD0031?style=for-the-badge&logo=angular)
+![React](https://img.shields.io/badge/-react-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript)
+![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
+
+<!-- firestore, firebase, sql-server, mysql,sqlite, oracle -->
+
+
+![sql server](https://img.shields.io/badge/-sql%20server-CC2927?style=for-the-badge&logo=microsoft-sql-server)
+
+
+<!-- git, github, bitbucket -->
+
+![Git](https://img.shields.io/badge/-Git-black?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
+
+
+---
+
+</br>
+
+## `> git stats show --gui`
+
+![Github Stats](https://github-readme-stats.vercel.app/api?username=xamorite&count_private=true&hide_title=true&show_icons=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xamorite&count=TeX&layout=compact)
+
+<!-- ## ```> git visitors --count```
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=zamorite.zamorite) -->
