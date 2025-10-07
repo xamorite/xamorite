@@ -1,7 +1,7 @@
 import Musix from './assets/musix.jpg';
 import Mopcare from './assets/mopcare.jpg';
 import BJT from './assets/Bibletalk.png';
-import Java from './assets/java.png';
+import Java from './assets/Java.png';
 
 
 const ExperienceSection = () => {
@@ -73,6 +73,7 @@ const ExperienceSection = () => {
             <span className="font-medium text-green-300">Technologies:</span> React, HTML5, Tailwind CSS, Supabase, PostgreSQL
           </p>
         </div>
+        {/* Bible Talk with judah*/}
          <div className="bg-gray-900 p-8 rounded-xl shadow-lg border border-green-700 transform transition-transform duration-300 hover:scale-[1.01] hover:shadow-green-500/30">
           <div className="mb-4"> {/* Added a div to wrap image and text for better layout */}
             <img
