@@ -146,11 +146,11 @@ const HomePage = ({ navItems, skillsData, technologiesData, resume }) => {
       <section id="skills" className="w-full max-w-6xl px-4 py-16 mx-auto">
         <h2 className="text-4xl font-extrabold mb-4 font-display">Skills</h2>
 
-        <div className="flex flex-row justify-between pt-8 ">
-        {skillsData.map((skill, index) => (
-            <SkillCard key={index} {...skill} />
-        ))}
-    </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 pt-8">
+    {skillsData.map((skill, index) => (
+      <SkillCard key={index} {...skill} />
+    ))}
+  </div>
       </section>
 
       <div className="w-full max-w-6xl h-px bg-gray-700/50 my-16 mx-auto"></div>
