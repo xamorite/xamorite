@@ -3,20 +3,44 @@ import { Github,  Folder, Globe } from 'lucide-react';
 
 const projectsData = [
   {
-    title: "Portfolio Website",
-    description: "My personal portfolio to showcase my skills, projects, and professional background. Built with modern web technologies.",
-    tech: ["React", "TailwindCSS", "Vite"],
-    githubLink: "https://github.com/xamorite/portfolio",
-    liveLink: "https://xamorite.com",
+    title: "MOPCARE Website",
+    description: "As a Web Developer at Mopcare, an organization dedicated to combating social isolation among the elderly, I contribute to a mission that has significantly impacted hundreds of seniors through various programs and consultations.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "CSS", "Supabase"],
+    githubLink: "https://github.com/xamorite/mopcare",
+    liveLink: "https://mopcare.netlify.app",
     Icon: Globe,
   },
   // Add more of your real projects here!
   {
-    title: "Project Alpha (e.g., E-commerce Backend)",
-    description: "Developed a scalable RESTful API for an e-commerce platform handling user authentication, product catalog, and order processing.",
-    tech: ["Node.Js", "Express", "MongoDB", "JWT"],
-    githubLink: "https://github.com/xamorite/project-alpha",
+    title: "MUSIX (A music Streaming Site)",
+    description: "Inspired by my passion for music, I built Musix, a multi-view web application designed to provide a seamless experience for music search, employer, and admin users.",
+    tech: ["React", "HTML5", "Tailwind", "CSS", "Supabase", "PostgreSQL"],
+    githubLink: "https://github.com/xamorite/spotify-clone",
     liveLink: null,
+    Icon: Server, // Need to import Server icon
+  },
+  {
+    title: "BTJ",
+    description: "Built a landing page for BTJ, a community of belivers who gather to discuss the truth about the Gospel of Jesus Christ.",
+    tech: ["HTML", "CSS", "TailwindCss", "JavaScript"],
+    githubLink: "https://github.com/xamorite/bibletalkwithjudah",
+    liveLink: "https://bibletalkwithjudah.netlify.app",
+    Icon: Server, // Need to import Server icon
+  },
+  {
+    title: "Employee Record Management System",
+    description: "Build a Java System for Employee Record System that allows users to add, view, update, and delete employee records. The system uses file handling to store employee data in a text file.",
+    tech: ["Java", "File Handling", "OOP", "GUI"],
+    githubLink: "https://github.com/xamorite/EmployeerecordManagement",
+    liveLink: null,
+    Icon: Server, // Need to import Server icon
+  },
+  {
+    title: "Psychgen Portal Website",
+    description: "The Psychiatric Genomics Africa Portal (PsychGenAfrica)is a pioneering initiative from the PGCAfrica working group, designed to serve as a centralized platform for psychiatric genomics research focused on the African population.",
+    tech: ["Next.Js", "HTML5", "Tailwind", "CSS", "ShadCn", ],
+    githubLink: "https://github.com/xamorite/psy ",
+    liveLink: "https://psychgenportal.netlify.app/",
     Icon: Server, // Need to import Server icon
   },
   
@@ -60,7 +84,7 @@ import { Server } from 'lucide-react';
 const ProjectsPage = () => {
   return (
     <div id="projects" className="w-full max-w-6xl px-4 py-16 text-left">
-      <h2 className="text-5xl font-extrabold mb-12 font-display text-center">
+      <h2 className="text-5xl font-extrabold my-12 font-display ">
         My Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
