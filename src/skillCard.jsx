@@ -7,7 +7,7 @@ const SkillCard = ({ title, Icon, highlight }) => {
 
   return (
     <div 
-      className={`p-6 border rounded-xl text-center flex flex-col justify-between h-40 w-full ${highlightClasses}`}
+      className={`p-6 border rounded-xl text-center flex flex-col justify-between h-40  ${highlightClasses}`}
     >
       <div className="flex justify-center space-x-2 mb-4">
         {/* FIX: Ensure Icon is rendered as a component, and Code is available */}
