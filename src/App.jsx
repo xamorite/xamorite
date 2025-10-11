@@ -83,7 +83,7 @@ const HomePage = ({ navItems, skillsData, technologiesData, resume }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 w-full px-4">
           {/* Left Side: Hero Text and Action Button */}
           <div className="flex flex-col justify-center text-left">
-            <p className="text-xl text-gray-400 mb-2 font-light">Hello 👋</p>
+            <p className="text-xl text-gray-400 mb-2 font-light pt-4">Hello 👋</p>
             <h2 className="text-5xl md:text-6xl font-extrabold mb-6 font-display">
               I'm Emmanuel Ogunneye
             </h2>
