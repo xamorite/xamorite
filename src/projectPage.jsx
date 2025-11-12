@@ -15,7 +15,7 @@ const projectsData = [
     title: "MUSIX (A music Streaming Site)",
     description: "Inspired by my passion for music, I built Musix, a multi-view web application designed to provide a seamless experience for music search, employer, and admin users.",
     tech: ["React", "HTML5", "Tailwind", "CSS", "Supabase", "PostgreSQL"],
-    githubLink: "https://github.com/xamorite/spotify-clone",
+    githubLink: "https://github.com/xamorite/musicweb.git",
     liveLink: null,
     Icon: Server, // Need to import Server icon
   },
@@ -23,7 +23,7 @@ const projectsData = [
     title: "BTJ",
     description: "Built a landing page for BTJ, a community of belivers who gather to discuss the truth about the Gospel of Jesus Christ.",
     tech: ["HTML", "CSS", "TailwindCss", "JavaScript"],
-    githubLink: "https://github.com/xamorite/bibletalkwithjudah",
+    githubLink: "https://github.com/xamorite/bibletalkwithjudah.git",
     liveLink: "https://bibletalkwithjudah.netlify.app",
     Icon: Server, // Need to import Server icon
   },
@@ -31,7 +31,7 @@ const projectsData = [
     title: "Employee Record Management System",
     description: "Build a Java System for Employee Record System that allows users to add, view, update, and delete employee records. The system uses file handling to store employee data in a text file.",
     tech: ["Java", "File Handling", "OOP", "GUI"],
-    githubLink: "https://github.com/xamorite/EmployeerecordManagement",
+    githubLink: "https://github.com/xamorite/EmployeeRecordMangement.git",
     liveLink: null,
     Icon: Server, // Need to import Server icon
   },
