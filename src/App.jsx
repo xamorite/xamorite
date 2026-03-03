@@ -68,7 +68,7 @@ const socialIcons = [
   { icon: Twitter, link: "https://x.com/xamorite", label: "Twitter" },
   {
     icon: Linkedin,
-    link: "https://linkedin.com/ipaoluwa",
+    link: "https://www.linkedin.com/in/ipaoluwa/",
     label: "LinkedIn",
   },
   { icon: Github, link: "https://github.com/xamorite", label: "GitHub" },
@@ -83,7 +83,9 @@ const HomePage = ({ navItems, skillsData, technologiesData, resume }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 w-full px-4">
           {/* Left Side: Hero Text and Action Button */}
           <div className="flex flex-col justify-center text-left">
-            <p className="text-xl text-gray-400 mb-2 font-light pt-4">Hello 👋</p>
+            <p className="text-xl text-gray-400 mb-2 font-light pt-4">
+              Hello 👋
+            </p>
             <h2 className="text-5xl md:text-6xl font-extrabold mb-6 font-display">
               I'm Emmanuel Ogunneye
             </h2>
@@ -134,7 +136,7 @@ const HomePage = ({ navItems, skillsData, technologiesData, resume }) => {
                     {item.title}
                   </p>
                 </Link>
-              )
+              ),
             )}
           </div>
         </div>
@@ -147,10 +149,10 @@ const HomePage = ({ navItems, skillsData, technologiesData, resume }) => {
         <h2 className="text-4xl font-extrabold mb-4 font-display">Skills</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 pt-8">
-    {skillsData.map((skill, index) => (
-      <SkillCard key={index} {...skill} />
-    ))}
-  </div>
+          {skillsData.map((skill, index) => (
+            <SkillCard key={index} {...skill} />
+          ))}
+        </div>
       </section>
 
       <div className="w-full max-w-6xl h-px bg-gray-700/50 my-16 mx-auto"></div>
