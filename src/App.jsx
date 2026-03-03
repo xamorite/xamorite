@@ -25,6 +25,7 @@ import AboutPage from "./aboutmePage";
 import ProjectsPage from "./projectPage";
 import SkillCard from "./skillCard";
 import TechChip from "./teChip";
+import NotFoundPage from "./NotFoundPage";
 import resume from "./assets/Resume.pdf";
 
 // --- Data Definitions (Moved to App.jsx for centralized control) ---
@@ -265,14 +266,8 @@ function App() {
 
             {/* We removed the explicit /contact route since the CTA is now on Home */}
 
-            <Route
-              path="*"
-              element={
-                <h1 className="text-center text-4xl mt-20">
-                  404 - Page Not Found
-                </h1>
-              }
-            />
+            {/* Catch-all route for defined pages that don't exist */}
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
 
