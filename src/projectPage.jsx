@@ -274,7 +274,7 @@ const projectsData = [
       "Valorant API",
     ],
     githubLink: "https://github.com/xamorite/valorant",
-    liveLink: null,
+    liveLink: "https://valorrent.netlify.app/",
     Icon: Shield,
     storyKey: "valorant",
   },
