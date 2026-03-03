@@ -14,10 +14,12 @@ import {
   Church,
   Briefcase,
   Brain,
+  Shield,
 } from "lucide-react";
 
 import desktopImg from "./assets/desktop.png";
 import mobileImg from "./assets/mobile.png";
+import riotImg from "./assets/riot.png";
 
 // --- Generic Story Modal Component ---
 const StoryModal = ({ isOpen, onClose, story }) => {
@@ -177,6 +179,24 @@ const stories = {
       `Every design decision was intentional — from the information architecture that makes complex research data navigable, to the responsive layouts that ensure researchers can access resources on any device, to the color palette that conveys trust and scientific rigor. The goal was to make the portal feel as authoritative and forward-thinking as the research it represents.`,
     ],
   },
+  valorant: {
+    title: "The Valorant Story",
+    icon: Globe,
+    paragraphs: [
+      `The Valorant Agent Concept project was born from a desire to create a high-fidelity, immersive fan experience for one of my favorite games. I wanted to build something that felt cinematic and professional, pushing the boundaries of what a fan site could be.`,
+      `I architected the platform using <span class="text-[#E7C85B] font-semibold">React 18 and Vite</span> for a blazing-fast development experience and production performance. The core of the site is powered by the <span class="text-[#E7C85B] font-semibold">Valorant API</span>, which I used to dynamically fetch and display agent portraits, ability data, and weapon stats. This ensures the site stays up-to-date with the latest game content automatically.`,
+      `For the design, I took inspiration from the official Valorant aesthetic—dark tactical backgrounds, sharp diagonal lines, and the signature red (#FF4655) accents. I used <span class="text-[#E7C85B] font-semibold">Tailwind CSS</span> for precise styling and <span class="text-[#E7C85B] font-semibold">Framer Motion</span> to add smooth, cinematic transitions between pages and interactive elements like the agents carousel and ability previews.`,
+      `One of the most fun features to build was the <span class="text-[#E7C85B] font-semibold">Jinx-themed 404 page</span>. It was a chance to add some personality and a nod to the wider Riot Games universe while ensuring even the "broken" parts of the site felt intentional and polished.`,
+      `This project solidified my skills in <span class="text-[#E7C85B] font-semibold">client-side routing with React Router</span> and managing complex interactive components. It’s a testament to how API integration and thoughtful UI/UX can bring a gaming concept to life.`,
+    ],
+    screenshots: [
+      {
+        src: riotImg,
+        alt: "Valorant Agent Page",
+        label: "Agent Concept Design",
+      },
+    ],
+  },
 };
 
 // --- Project Data ---
@@ -240,6 +260,23 @@ const projectsData = [
     liveLink: "https://psychgenportal.netlify.app/",
     Icon: Brain,
     storyKey: "psychgen",
+  },
+  {
+    title: "Valorant // Agent Concept",
+    description:
+      "A premium, Figma-inspired Valorant fan site built with React, featuring agent profiles, weapon arsenals, and the latest news — all powered by the Valorant API.",
+    tech: [
+      "React",
+      "Framer Motion",
+      "Tailwind CSS",
+      "Vite",
+      "Lucide React",
+      "Valorant API",
+    ],
+    githubLink: "https://github.com/xamorite/valorant",
+    liveLink: null,
+    Icon: Shield,
+    storyKey: "valorant",
   },
 ];
 
